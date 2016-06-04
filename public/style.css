@@ -1,0 +1,150 @@
+main {
+    background-color: #0AB72A;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: #0AB72A;
+}
+
+footer {
+    background-color: #0AB72A;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-weight: 600;
+    font-family: Courier;
+}
+
+footer a {
+    font-weight: 600;
+    font-family: Courier;
+    color: inherit;
+}
+
+footer a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.footing {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.myfooter {
+    padding-top: 10px;
+    border-top: solid;
+    border-width: 1px;
+    background-color: #61C46E;
+}
+
+.copyright {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Courier;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    color: #0AB72A;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.bottom a {
+    color: black;
+}
+
+.bottom a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.mynav {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mynav li {
+    font-size: 18px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline;
+    vertical-align: middle;
+}
+
+.mynav a {
+    color: #3CBE4E;
+}
+
+.mynav a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.mynav img {
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mynav ul {
+    display: inline;
+}
+
+.border {
+    padding: 12px 25px;
+    border-right: 2px solid #C1B59D;
+}
+
+.right-men {
+    padding: 12px 23px;
+}
+
+.time {
+    padding-left: 0px !important;
+}
+
+.footspace {
+   text-align: center;
+}
+
+/* Carousel CSS */
+
+.carousel-inner img {
+    width: 750px !important;
+    height: 500px !important;
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
