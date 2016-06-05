@@ -134,11 +134,26 @@ footer a:hover {
    text-align: center;
 }
 
+.side-car-text {
+  height: 500px;
+  width: 28.3333%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.side-car-text p {
+  font-size: 1.49em;
+  margin: 0px;
+  color: rgba(25, 25, 25, 0.65);
+
+}
+
 /* Carousel CSS */
 
 .carousel-inner img {
     width: 750px;  /* !important; */
-    height: 500px; /* !important; */
+    height: 500px !important; /* !important; */
     min-height: 200px;
 }
 
