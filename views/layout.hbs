@@ -13,15 +13,29 @@
 <body>
 	<header>
 		<div class="container">
-    		<ul class="mynav">
-    			<li><a href="/" class="border">Home</a></li>
-      			<li><a href="/menu" class="right-men">Menu</a></li>
-      			<li><a href="/"><img src="/images/eagle_rock_logo.jpg" height="90" width="500"></a></li>
-      			<li><a href="/about" class="border">About</a></li>
-      			<li><a href="/contact" class="right-men">Contact</a></li>
-    		</ul>
-  		</div>
-    </header>
+			<div class="row vert-align">
+				<div class="col-sm-3">
+					<div class="col-sm-6 navitem">
+						<a href="/">Home</a>
+					</div>
+					<div class="col-sm-6 navitem">
+						<a href="/menu">Menu</a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<img src="/images/eagle_rock_logo.jpg" class="navpic">
+				</div>
+				<div class="col-sm-3">
+					<div class="col-sm-6 navitem">
+						<a href="/about">About</a>
+					</div>
+					<div class="col-sm-6 navitem">
+						<a href="/contact">Contact</a>
+					</div>
+				</div>
+			</div>
+  	</div>
+  </header>
 
 	<main>
 		{{{ body }}}

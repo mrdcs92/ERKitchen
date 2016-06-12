@@ -12,6 +12,38 @@ header {
     background-color: #0AB72A;
 }
 
+.vert-align {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navpic {
+  width: 100%;
+  height: auto;
+}
+
+.navitem {
+  font-size: 1.7vw;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+
+}
+
 footer {
     background-color: #0AB72A;
     padding-bottom: 20px;
