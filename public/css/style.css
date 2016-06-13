@@ -13,10 +13,29 @@ header {
 }
 
 /* Navigation CSS begins */
+/* Screens larger than 768px */
+@media (min-width: 768px) {
+  .cell-nav {
+    display: none;
+  }
+}
+/* Screens smaller than 767px */
+@media (max-width: 767px) {
+  .desk-nav {
+    display: none;
+  }
+
+  .con1 {
+    padding-top: 10px;
+  }
+}
+
 .vert-align {
   background-color: white;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 15px 15px 15px 15px;
@@ -67,6 +86,10 @@ header {
 
 .navitem-right-right {
   text-align: left;
+}
+
+.cell-nav {
+  margin-bottom: 0px;
 }
 /* Navigation CSS ends */
 

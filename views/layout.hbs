@@ -12,9 +12,10 @@
 
 <body>
 	<header>
-		<div class="container">
+		<!-- Desktop Navigation -->
+		<div class="container-fluid desk-nav">
 			<div class="row vert-align">
-				<div class="col-sm-4 pad-right">
+				<div class="col-sm-4">
 					<div class="col-sm-6 navitem navitem-border-left">
 						<a href="/">Home</a>
 					</div>
@@ -35,6 +36,27 @@
 				</div>
 			</div>
   	</div>
+		<!-- Cellphone Navigation -->
+		<nav class="navbar navbar-default cell-nav">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">EagleRock.Kitchen</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="/">Home</a></li>
+		        <li><a href="/contact">Contact</a></li>
+		        <li><a href="/menu">Menu</a></li>
+		        <li><a href="/about">About</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
   </header>
 
 	<main>
@@ -42,7 +64,7 @@
 	</main>
 
 	<footer>
-		<div class="container footing">
+		<div class="container-fluid footing">
 			<div class="row">
 				<div class="col-sm-3 footspace">
 					<h5 class="bottom">Location</h5>
