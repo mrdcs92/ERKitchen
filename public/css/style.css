@@ -42,8 +42,12 @@ header {
   .cell-nav {
     margin-bottom: 0px;
   }
-  
+
   .con1 {
+    padding-top: 10px;
+  }
+
+  .side-car-text {
     padding-top: 10px;
   }
 }
@@ -181,20 +185,11 @@ footer a:hover {
 }
 /* Footer CSS ends */
 
-.side-car-text {
-  height: auto;
-  width: 28.3333%;
-  background-color: white;
-  padding: 15px;
-  border-radius: 15px 15px 15px 15px;
+/* Index CSS begins */
+.con1 {
+  padding-bottom: 10px;
 }
-
-.side-car-text p {
-  font-size: 1rem;
-  margin: 0px;
-  color: rgba(25, 25, 25, 0.65);
-
-}
+/*Index CSS ends */
 
 /* Carousel CSS begins */
 .carousel-inner img {
