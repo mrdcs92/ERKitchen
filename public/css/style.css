@@ -18,6 +18,10 @@ header {
   .cell-nav {
     display: none;
   }
+
+  .cell-pic {
+    display: none;
+  }
 }
 /* Screens smaller than 767px */
 @media (max-width: 767px) {
@@ -25,6 +29,20 @@ header {
     display: none;
   }
 
+  .cell-pic {
+    padding-top: 10px;
+  }
+
+  .navpic-cell {
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+  }
+
+  .cell-nav {
+    margin-bottom: 0px;
+  }
+  
   .con1 {
     padding-top: 10px;
   }
@@ -86,10 +104,6 @@ header {
 
 .navitem-right-right {
   text-align: left;
-}
-
-.cell-nav {
-  margin-bottom: 0px;
 }
 /* Navigation CSS ends */
 
