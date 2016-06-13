@@ -3,15 +3,16 @@ html {
 }
 
 main {
-    background-color: #0AB72A;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
-    font-size: 14px;
+  background-color: #0AB72A;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+  font-size: 14px;
 }
 
 header {
-    background-color: #0AB72A;
+  background-color: #0AB72A;
 }
 
+/* Navigation CSS begins */
 .vert-align {
   background-color: white;
   margin-top: 20px;
@@ -24,7 +25,6 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
 }
 
 .navpic {
@@ -58,6 +58,7 @@ header {
 
 .navitem-right-left {
   text-align: left;
+  padding-right: 0px;
 }
 
 .navitem-border-right {
@@ -67,132 +68,81 @@ header {
 .navitem-right-right {
   text-align: left;
 }
+/* Navigation CSS ends */
 
+/* Footer CSS begins */
 footer {
-    background-color: #0AB72A;
-    padding-bottom: 20px;
+  background-color: #0AB72A;
+  padding-bottom: 20px;
 }
 
 footer p {
-    font-weight: 600;
-    font-family: Courier;
+  font-weight: 600;
+  font-family: Courier;
 }
 
 footer a {
-    font-weight: 600;
-    font-family: Courier;
-    color: inherit;
+  font-weight: 600;
+  font-family: Courier;
+  color: inherit;
 }
 
 footer a:hover {
-    color: green;
-    text-decoration: none;
+  color: green;
+  text-decoration: none;
 }
 
 .footing {
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 15px 15px 15px 15px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .myfooter {
-    padding-top: 10px;
-    border-top: solid;
-    border-width: 1px;
-    background-color: #61C46E;
+  padding-top: 10px;
+  border-top: solid;
+  border-width: 1px;
+  background-color: #61C46E;
 }
 
 .copyright {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: Courier;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Courier;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .bottom {
-    color: #0AB72A;
-    font-weight: 700;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    text-decoration: none;
-    justify-content: center;
+  color: #0AB72A;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-decoration: none;
+  justify-content: center;
 }
 
 .bottom a {
-    color: black;
+  color: black;
 }
 
 .bottom a:hover {
-    color: green;
-    text-decoration: none;
-}
-
-.mynav {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 0px;
-    background-color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px 15px 15px 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.mynav li {
-    font-size: 18px;
-    font-family: "museo-sans", sans-serif;
-    font-weight: 900;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline;
-    vertical-align: middle;
-}
-
-.mynav a {
-    color: #3CBE4E;
-}
-
-.mynav a:hover {
-    color: green;
-    text-decoration: none;
-}
-
-.mynav img {
-    vertical-align: middle;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.mynav ul {
-    display: inline;
-}
-
-.border {
-    padding: 12px 25px;
-    border-right: 2px solid #C1B59D;
-}
-
-.right-men {
-    padding: 12px 23px;
+  color: green;
+  text-decoration: none;
 }
 
 .time {
-    padding-left: 0px;  /* !important; */
+  padding-left: 0px;  /* !important; */
 }
 
 .footspace {
-   text-align: center;
+  text-align: center;
 }
+/* Footer CSS ends */
 
 .side-car-text {
   height: auto;
@@ -209,12 +159,11 @@ footer a:hover {
 
 }
 
-/* Carousel CSS */
-
+/* Carousel CSS begins */
 .carousel-inner img {
-    width: 100%;  /* !important; */
-    height: auto !important; /* !important; */
-    min-height: 200px;
+  width: 100%;  /* !important; */
+  height: auto !important; /* !important; */
+  min-height: 200px;
 }
 
 .carousel-control.right {
@@ -223,6 +172,7 @@ footer a:hover {
   background-image: none;
   background-repeat: repeat-x;
 }
+/* Carousel CSS ends */
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
