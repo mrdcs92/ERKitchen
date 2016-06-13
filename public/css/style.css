@@ -41,7 +41,31 @@ header {
   text-decoration: none;
   text-align: center;
   display: inline;
+}
 
+.navitem a {
+  color: #3CBE4E;
+}
+
+.navitem a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.navitem-border-left {
+  text-align: center;
+}
+
+.navitem-right-left {
+  text-align: left;
+}
+
+.navitem-border-right {
+  text-align: center;
+}
+
+.navitem-right-right {
+  text-align: left;
 }
 
 footer {
